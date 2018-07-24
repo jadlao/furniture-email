@@ -1,114 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i');
 .header-unsub {
-    p,
-    a {
-        font-size: 10px;
-        padding-top: 10px !important;
-        color: #eee;
-    }
-    #unsubscribe {
-        float: right;
-        padding-top: 10px !important;
-        color: #eee;
-    }
+  p,
+  a {
+    font-size: 10px;
+    padding-top: 10px !important;
+    color: darken(#eee, 20%);
+  }
+  #unsubscribe {
+    float: right;
+    padding-top: 10px !important;
+    color: darken(#eee, 20%);
+  }
 }
 
-.header-row {}
+.header-row {
+  img {
+    margin-top: -16px !important;
+  }
+}
 
 .grey-spacer {
-    background: #eee;
+  background: #eee;
 }
 
 .nav-row {
-    .nav-col {
-        padding-top: 16px !important;
-        a {
-            text-transform: uppercase;
-            text-decoration: none;
-            color: black;
-        }
+  .nav-col {
+    padding-top: 16px !important;
+    a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: black;
+      letter-spacing: 1px;
+      hyphens: none;
     }
+  }
 }
 
 .hero-row {
-    background: url('https://images.unsplash.com/photo-1478515463067-d20f52aace26?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=899a8459cffc394ab9d49544618503ff&auto=format&fit=crop&w=968&q=80');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+  background: url('https://image.ibb.co/iLiqry/furniture_topbanner.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 330px;
+  .hero-col {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
     .hero-box {
-        background: rgba(238, 238, 238, 0.6);
-        padding-top: 16px !important;
-        h1,
-        p {
-            text-align: center;
-        }
+      background: rgba(238, 238, 238, 0.6);
+      margin-top: 101px;
+      h1,
+      p {
+        text-align: center;
+        padding-top: 32px;
+      }
+      h1 {
+        text-transform: uppercase;
+        font-size: 28px;
+        letter-spacing: 1px;
+      }
+      p {
+        font-family: 'Lora', 'Times New Roman', serif;
+        font-style: italic;
+        padding-top: 5px;
+      }
     }
+  }
 }
 
 .featured-furniture-row {
-    .left-col {
-        figure {
-            img {
-                padding: 20px 30px !important;
-                background: #eee;
-                margin-left: -30px;
-            }
-            figcaption {
-                margin-top: 20px;
-                font-size: 12px;
-                text-align: center;
-            }
-        }
+  .left-col {
+    img {
+      //padding: 20px 30px !important;
+      background: #eee;
+      border: 1px solid black;
     }
-    .right-col {
-        figure {
-            img {
-                padding: 20px 30px !important;
-                background: #eee;
-                margin-left: -30px !important;
-            }
-            figcaption {
-                margin-top: 20px;
-                font-size: 12px;
-                text-align: center;
-            }
-        }
+    p {
+      margin-top: 20px;
+      font-size: 12px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 1px;
     }
+  }
+  .right-col {
+    img {
+      //padding: 20px 30px !important;
+      background: white;
+      border: 1px solid black;
+      padding: 13px 0 !important;
+    }
+    p {
+      margin-top: 20px;
+      font-size: 12px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 1px;
+    }
+  }
 }
 
 .featured-furniture-row-two {
-    .col-1,
-    .col-2,
-    .col-3 {
-        figure {
-            img {
-                padding: 20px 30px !important;
-                background: #eee;
-                margin-left: -29.5px !important;
-            }
-            figcaption {
-                margin-top: 20px;
-                font-size: 12px;
-                text-align: center;
-            }
-        }
+  .col-1,
+  .col-2,
+  .col-3 {
+    img {
+      //padding: 20px 30px !important;
+      background: #eee;
+      border: 1px solid black;
     }
-    .col-3 {
-        figure {
-            img {
-                //margin-right: 30px !important;
-            }
-        }
+    p {
+      margin-top: 20px;
+      font-size: 12px;
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      letter-spacing: 1px;
     }
+  }
 }
 
 .footer-row {
-    .col-1,
-    .col-2,
-    .col-3 {
-        padding-top: 20px !important;
-        p {
-            font-size: 10px;
-            text-align: center;
-        }
+  .col-1,
+  .col-2,
+  .col-3 {
+    padding-top: 20px !important;
+    p {
+      font-size: 10px;
+      text-align: center;
+      color: darken(#eee, 20%);
     }
+    img {
+      display: inline-block;
+    }
+  }
 }

@@ -6,3 +6,10 @@ dist
 .sass-cache
 .awspublish*
 config.json
+etc
+src
+.babelrc
+example.config.json
+gulpfile.babel.js
+package-lock.json
+package.json

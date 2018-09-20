@@ -1,5 +1,5 @@
 # Bondi Birch E-commerce Email
 
-Responsive HTML email for furniture e-commerce store. 
+Responsive HTML email for furniture e-commerce store.
 
-Technologies: HTML, CSS, Zurb Foundation Emails.
+Technologies: HTML, CSS
